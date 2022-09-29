@@ -11,7 +11,7 @@ const connect = () => {
 		useNewUrlParser: true,
 		useCreateIndex: true
 	}), 1000);
-}	
+}
 
 mongoose.connection.on('connected', () => {
 	console.log('connected');
