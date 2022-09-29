@@ -6,7 +6,8 @@
     "\\app_server\\routes",
     "\\app_server\\views",
     "\\app_server\\views\\partials",
-    "\\public"
+    "\\data"
   ],
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
