@@ -23,6 +23,27 @@ const tripsList = async (req, res) => {
 
 };
 
+// GET: /trips/:tripCode - returns a single trip
+const tripsFindCode = async (req, res) => {
+    model
+        .fins({ 'code': req.params.tripCode })
+        .exec((err, trip) => {
+            if (!trip) {
+                return res
+                    .status(400)
+                    .json({ "message": "trips not found" });
+            } else if (err) {
+                return res
+                    .status(404)
+                    .json(err);
+            } else {
+                return res
+                    .status(200)
+                    .json(trips);
+            }
+        });
+};
+
 module.exports = {
     tripsList
 };
