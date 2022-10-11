@@ -11,6 +11,6 @@
     "\\app_api\\controllers",
     "\\app_api\\routes"
   ],
-  "SelectedNode": "\\app_admin\\src\\app\\edit-trip\\edit-trip.component.ts",
+  "SelectedNode": "\\app_api\\routes\\index.js",
   "PreviewInSolutionExplorer": false
 }

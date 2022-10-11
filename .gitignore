@@ -34,3 +34,7 @@ hs_err_pid*
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# dotenv environment variables file
+.env
+.env.test
